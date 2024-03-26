@@ -1,0 +1,121 @@
+[
+    {
+        "task_id": null,
+        "currentState": {
+            "entityType": "all types",
+            "lastExecutionEC2Instances": "i-0f4b2550a2056a35a",
+            "numberOfFailedToPublishEvents": 0,
+            "skippedEntitiesCount": 0,
+            "lastHourThroughput": 40.273887634277344,
+            "numberOfProcessedObjects": 2875637,
+            "maxQueueSize": 32768,
+            "restored": true,
+            "errors": [],
+            "status": "Completed"
+        },
+        "throughput": 17.841042,
+        "duration": "1d 20h 46m 21s"
+    },
+    {
+        "task_id": null,
+        "currentState": {
+            "entityType": "all types",
+            "lastExecutionEC2Instances": "i-084ed18fec3cf6385",
+            "numberOfFailedToPublishEvents": 0,
+            "skippedEntitiesCount": 0,
+            "lastHourThroughput": 122.26611328125,
+            "numberOfProcessedObjects": 2872750,
+            "maxQueueSize": 32768,
+            "restored": true,
+            "errors": [],
+            "status": "Completed"
+        },
+        "throughput": 16.540096,
+        "duration": "2d 0h 14m 44s"
+    },
+    {
+        "task_id": null,
+        "currentState": {
+            "entityType": "all types",
+            "lastExecutionEC2Instances": "i-0c76ba086630cb671",
+            "numberOfFailedToPublishEvents": 0,
+            "skippedEntitiesCount": 0,
+            "lastHourThroughput": 128.25222778320312,
+            "numberOfProcessedObjects": 2873693,
+            "maxQueueSize": 32768,
+            "restored": true,
+            "errors": [],
+            "status": "Completed"
+        },
+        "throughput": 16.60931,
+        "duration": "2d 0h 3m 37s"
+    },
+    {
+        "task_id": null,
+        "currentState": {
+            "entityType": "all types",
+            "lastExecutionEC2Instances": "i-08b590d10f13935b9",
+            "numberOfFailedToPublishEvents": 0,
+            "skippedEntitiesCount": 0,
+            "lastHourThroughput": 104.69583129882812,
+            "numberOfProcessedObjects": 2870976,
+            "maxQueueSize": 32768,
+            "restored": true,
+            "errors": [],
+            "status": "Completed"
+        },
+        "throughput": 16.408484,
+        "duration": "2d 0h 36m 9s"
+    },
+    {
+        "task_id": null,
+        "currentState": {
+            "entityType": "all types",
+            "lastExecutionEC2Instances": "i-097d8b2ba11a31e98",
+            "numberOfFailedToPublishEvents": 0,
+            "skippedEntitiesCount": 0,
+            "lastHourThroughput": 61.961944580078125,
+            "numberOfProcessedObjects": 2869559,
+            "maxQueueSize": 32768,
+            "restored": true,
+            "errors": [],
+            "status": "Completed"
+        },
+        "throughput": 16.927654,
+        "duration": "1d 23h 5m 19s"
+    },
+    {
+        "task_id": null,
+        "currentState": {
+            "entityType": "all types",
+            "lastExecutionEC2Instances": "i-0050214191236c51a",
+            "numberOfFailedToPublishEvents": 0,
+            "skippedEntitiesCount": 0,
+            "lastHourThroughput": 94.5008316040039,
+            "numberOfProcessedObjects": 2873374,
+            "maxQueueSize": 32768,
+            "restored": true,
+            "errors": [],
+            "status": "Completed"
+        },
+        "throughput": 17.06948,
+        "duration": "1d 22h 45m 34s"
+    },
+    {
+        "task_id": null,
+        "currentState": {
+            "entityType": "all types",
+            "lastExecutionEC2Instances": "i-01be03982b68b8f47",
+            "numberOfFailedToPublishEvents": 0,
+            "skippedEntitiesCount": 0,
+            "lastHourThroughput": 133.5144500732422,
+            "numberOfProcessedObjects": 2878380,
+            "maxQueueSize": 32768,
+            "restored": true,
+            "errors": [],
+            "status": "Completed"
+        },
+        "throughput": 16.6764,
+        "duration": "1d 23h 56m 42s"
+    }
+]
