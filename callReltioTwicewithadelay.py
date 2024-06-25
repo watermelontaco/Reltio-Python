@@ -3,7 +3,7 @@ import time
 import urllib.parse
 
 def get_auth_token():
-    auth_token = "s.AAAAoii1L_0gog0EAFKIGx5gNdYY8PBa1G4rrFiw4cPQqBueLGlGpfsaYAiC5QKTIaoFrAw5lgs0xZRuIHDFF9filpaUxbX0FlwpNmOlwxmeaiy-A6wnyeD9WWegwnuzzjmj3TnaE-sICQtHIJ34yOJJqBzeoXXJPE0kvMOjBQAy9PXCASI1-JdZ4Gs-AQ.irAhwEfPDQwT6SxX_085hk_KGgOTUyy5Ly3AB7mhbNoXcu4MEOiwQLhyUv1sa7Lj072UsNbz_ZmHJiqrgZROSQedQmYq9aMNKdsOloMwwot4y2P1sYay43ZCoXPri4VZvbCSvO7Z39Wj128al2mhhd4TAjaZbT9Gu-GBcDGKjV6uf8kzVfMk1IEP02IR_28i_dDl9pm6ojW3GH0ugNPU1p9A85uEcigXT6IOB4tX7b-Mosyo22w7Z5A4F9juAD6dEkI3icevqA2ILcjt_mRA3nfAL9YmcZj6EQn_tfPYAXo9WRRZevooX3DKzRAOeiF1qwSHP9k1x6M2LbWGwDUWCQ"
+    auth_token = "Auth token here"
     return auth_token
 
 def send_api_call(endpoint, method, headers, params=None, data=None):
@@ -27,7 +27,7 @@ def main():
     auth_token = get_auth_token()
     
     # API call to endpoint1 with POST method
-    endpoint1 = "https://gus-training.reltio.com/reltio/api/193YOmXw2aubJFm/entities/_conditional"
+    endpoint1 = "https://env.reltio.com/reltio/api/{{tenantId}}/entities/_conditional"
     params1 = {
         "filter": "(equals(type,'configuration/entityTypes/Individual') and equals(attributes.FirstName,'Donny') and equals(attributes.LastName,'Doe') and equals(attributes.Email.Email,'donnydoe@email.com'))",
         "options": "partialOverride",
@@ -127,7 +127,7 @@ def main():
     time.sleep(300)
 
     # API call to endpoint2 with GET method
-    endpoint2 = "https://gus-training.reltio.com/reltio/api/193YOmXw2aubJFm/entities/_search"
+    endpoint2 = "https://env.reltio.com/reltio/api/{{tenantId}]/entities/_search"
     params2 = {
         "filter": "(equals(type,'configuration/entityTypes/Individual') and (equals(attributes.PartyKey,'{{party_key}}')))",
         "select": "uri,type,attributes.PartyKey,attributes.FirstName,attributes.LastName,attributes.Email.Email,attributes.Phone.Number,attributes.Address,crosswalks"
